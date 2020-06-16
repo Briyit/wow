@@ -1,4 +1,4 @@
-# Aeryn - Destruction - 2020-06-14 20:53 - US/Ragnaros
+# Aeryn - Affliction - 2020-06-16 10:35 - US/Ragnaros
 # SimC Addon 1.12.5
 # Requires SimulationCraft 820-01 or newer
 
@@ -9,22 +9,22 @@ region=us
 server=ragnaros
 role=spell
 professions=herbalism=175/tailoring=175
-talents=1123223
-spec=destruction
+talents=3322223
+spec=affliction
 
-azerite_essences=0:0/300573/27:3/300575/300576/5:3/300577/312927/35:3/312928
-# azerite_essences_available=4:3/5:3/6:1/12:4/14:3/15:1/22:1/23:3/27:3/28:1/32:1/35:3/36:3/37:3
+azerite_essences=14:3/300573/5:3/300575/300576/12:4/300577/312927/35:3/312928
+# azerite_essences_available=4:3/5:3/6:1/12:4/14:3/15:1/22:3/23:3/27:3/28:1/32:1/35:3/36:3/37:3
 
-head=,id=174116,bonus_id=4823/1502/4786/6508,context=5,azerite_powers=
+head=,id=166564,bonus_id=5845/1577/4786/6508/4775,context=23,azerite_powers=230/123/30/15/13
 neck=,id=158075,bonus_id=6316/4932/4933/1652,context=11,azerite_level=91
 shoulder=,id=174117,bonus_id=4823/1502/4786/6509/4775,context=5,azerite_powers=123/230/30/44/13
-back=,id=169223,bonus_id=6582/1472,context=11
+back=,id=169223,bonus_id=6584/1472,context=11
 chest=,id=159257,bonus_id=5448/1647/4786/6510/4775,context=35,azerite_powers=123/482/30/44/13
 shirt=,id=6833
-wrist=,id=174122,bonus_id=4823/6516/6513/1502/4786,context=5
-hands=,id=159253,bonus_id=6534/6578/6579/6559/6513/1642/4786,context=35
-waist=,id=173812,bonus_id=6412/6513/6578/6579/6563/1527/4786,context=55
-legs=,id=174127,bonus_id=4823/6578/6579/6559/6515/1502/4786,context=5
+wrist=,id=174122,gem_id=168641,bonus_id=4824/1808/6516/6515/1517/4786,context=6
+hands=,id=174125,enchant_id=5932,gem_id=168641,bonus_id=4824/1808/6516/6515/1517/4786,context=6
+waist=,id=168958,bonus_id=6536/6578/6579/6545/6515/1532/4786,context=35
+legs=,id=159250,bonus_id=6536/6578/6515/1647/4786/6516,context=35
 feet=,id=174123,gem_id=168641,bonus_id=4824/1808/6516/6515/1517/4786,context=6
 finger1=,id=169157,enchant_id=6109,bonus_id=6534/6578/6513/1527/4786/6516,context=35
 finger2=,id=162548,enchant_id=6109,bonus_id=6536/6516/6513/1637/4786,context=16
@@ -35,26 +35,41 @@ off_hand=,id=172190,bonus_id=4823/6516/6513/1502/4786,context=5
 
 ### Gear from Bags
 #
-# Capacete de pesteador (465)
-# head=,id=166564,bonus_id=5845/1577/4786/6508/4775,context=23,azerite_powers=230/123/30/15/13
-#
 # Caperuza de seda de Gladiador corrupto (460)
 # head=,id=172526,bonus_id=6386/6388/1572/4786/6508,context=26,azerite_powers=
+#
+# Capucha de horrores indescriptibles (460)
+# head=,id=174116,bonus_id=4823/1502/4786/6508,context=5,azerite_powers=
 #
 # Togas de falsa realidad (475)
 # chest=,id=174119,bonus_id=4824/1517/4786/6510,context=6,azerite_powers=
 #
-# Puños del manipulador vil (430)
-# wrist=,id=173471,bonus_id=6412/4803/6513/6578/6579/6482/6470/1487/4786,context=36
+# Puños del manipulador vil (470)
+# wrist=,id=173471,gem_id=168641,bonus_id=6412/4802/6515/6578/6579/6542/1527/4786,context=55
+#
+# Cubremuñecas drust de junco (465)
+# wrist=,id=159282,bonus_id=6536/42/6516/6513/1637/4786,context=16
+#
+# Puños de conjuración funesta (445)
+# wrist=,id=174129,bonus_id=4822/6516/6515/1487/4786,context=3
+#
+# Brazaletes del manipulador vil (465)
+# wrist=,id=173479,bonus_id=6412/6513/6578/6579/6539/1522/4786,context=54
+#
+# Cubremuñecas del manipulador vil (440)
+# wrist=,id=174953,bonus_id=6540/6515/6578/6579/4803,context=28
+#
+# Cubremuñecas del manipulador vil (445)
+# wrist=,id=173437,bonus_id=6412/4803/4802/41/6513/6578/6579/6552/1502/4786,context=37
 #
 # Cubremuñecas de algaférrea (475)
 # wrist=,id=159256,bonus_id=6536/4802/6578/6579/6564/6515/1647/4786,context=35
 #
-# Pulseras del manipulador vil (465)
-# wrist=,id=173490,bonus_id=6412/6513/6578/6579/6560/1522/4786,context=54
+# Cubremuñecas del manipulador vil (470)
+# wrist=,id=173437,bonus_id=6412/6515/6578/6579/6539/1527/4786,context=55
 #
-# Cubremuñecas drust de junco (465)
-# wrist=,id=159282,bonus_id=6536/42/6516/6513/1637/4786,context=16
+# Cubremuñecas del manipulador vil (465)
+# wrist=,id=173437,bonus_id=6412/6513/6578/6579/6550/1522/4786,context=54
 #
 # Puños de seda de Gladiador corrupto (460)
 # wrist=,id=172529,bonus_id=6387/6389/1572/4786/6516/6513,context=26
@@ -62,32 +77,17 @@ off_hand=,id=172190,bonus_id=4823/6516/6513/1502/4786,context=5
 # Puños del manipulador vil (445)
 # wrist=,id=173471,bonus_id=6412/4803/6513/6578/6579/6566/1502/4786,context=29
 #
-# Cubremuñecas del manipulador vil (440)
-# wrist=,id=174953,bonus_id=6540/6515/6578/6579/4803,context=28
-#
-# Cubremuñecas empapados de Vacío (475)
-# wrist=,id=174122,gem_id=168641,bonus_id=4824/1808/6516/6515/1517/4786,context=6
-#
-# Puños del manipulador vil (470)
-# wrist=,id=173471,gem_id=168641,bonus_id=6412/4802/6515/6578/6579/6542/1527/4786,context=55
-#
-# Cubremuñecas del manipulador vil (465)
-# wrist=,id=173437,bonus_id=6412/6513/6578/6579/6550/1522/4786,context=54
-#
-# Cubremuñecas del manipulador vil (445)
-# wrist=,id=173437,bonus_id=6412/4803/4802/41/6513/6578/6579/6552/1502/4786,context=37
-#
-# Puños de conjuración funesta (445)
-# wrist=,id=174129,bonus_id=4822/6516/6515/1487/4786,context=3
-#
 # Puños de seda de Gladiador corrupto (445)
 # wrist=,id=172529,bonus_id=6363/4802/6389/6578/6579/6560/6513/1557/4786,context=56
 #
-# Guantes de seda de Aspirante corrupto (425)
-# hands=,id=172782,bonus_id=6516/6513/1537/4785,context=47
+# Puños del manipulador vil (430)
+# wrist=,id=173471,bonus_id=6412/4803/6513/6578/6579/6482/6470/1487/4786,context=36
 #
-# Guantes de escamas de ascuas (475)
-# hands=,id=174125,enchant_id=5932,gem_id=168641,bonus_id=4824/1808/6516/6515/1517/4786,context=6
+# Pulseras del manipulador vil (465)
+# wrist=,id=173490,bonus_id=6412/6513/6578/6579/6560/1522/4786,context=54
+#
+# Guantes de las heridas acérrimas (470)
+# hands=,id=159253,bonus_id=6534/6578/6579/6559/6513/1642/4786,context=35
 #
 # Manoplas del manipulador vil (445)
 # hands=,id=173507,bonus_id=6412/4803/6513/6578/6579/6562/1502/4786,context=37
@@ -98,32 +98,29 @@ off_hand=,id=172190,bonus_id=4823/6516/6513/1502/4786,context=5
 # Manoplas de seda de Gladiador corrupto (445)
 # hands=,id=172589,bonus_id=6363/6389/6578/6579/6560/6513/1557/4786,context=56
 #
+# Cinturón del manipulador vil (465)
+# waist=,id=173511,bonus_id=6412/43/6515/6578/6579/6478/6462/1522/4786,context=54
+#
 # Atadura de herejías oscuras (460)
 # waist=,id=174126,bonus_id=4823/6516/6515/1502/4786,context=5
-#
-# Faja del manipulador vil (470)
-# waist=,id=173813,bonus_id=6412/6513/6578/6579/6482/6470/1527/4786,context=55
 #
 # Fajín imbuido de maná (475)
 # waist=,id=174124,bonus_id=4824/6516/6513/1517/4786,context=6
 #
-# Cinturón del manipulador vil (465)
-# waist=,id=173511,bonus_id=6412/43/6515/6578/6579/6478/6462/1522/4786,context=54
+# Cordón del manipulador vil (470)
+# waist=,id=173812,bonus_id=6412/6513/6578/6579/6563/1527/4786,context=55
 #
-# Cíngulo del maestro de ceremonias (475)
-# waist=,id=168958,bonus_id=6536/6578/6579/6545/6515/1532/4786,context=35
-#
-# Fajín de cefalópodo (450)
-# waist=,id=168872,bonus_id=4799/1502/5865/4784,context=5
-#
-# Leotardos del mono de polvo (475)
-# legs=,id=159250,bonus_id=6536/6578/6515/1647/4786/6516,context=35
+# Faja del manipulador vil (470)
+# waist=,id=173813,bonus_id=6412/6513/6578/6579/6482/6470/1527/4786,context=55
 #
 # Calzas del manipulador vil (470)
 # legs=,id=173811,bonus_id=6412/6513/6578/6579/6565/1527/4786,context=55
 #
-# Leotardos de seda de Gladiador corrupto (460)
-# legs=,id=172527,bonus_id=6387/6388/1572/4786/6516/6513,context=26
+# Bombachos sobrecargados (475)
+# legs=,id=169071,bonus_id=6536/6578/6579/6548/6513/1532/4786,context=35
+#
+# Calzas del suplicante corpóreo (470)
+# legs=,id=174127,bonus_id=4823/6516/6515/1502/4786,context=5
 #
 # Ataduras de productos tenebrosos (475)
 # legs=,id=175004,bonus_id=4824/6578/6579/6539/6513/1517/4786,context=6
@@ -131,8 +128,11 @@ off_hand=,id=172190,bonus_id=4823/6516/6513/1502/4786,context=5
 # Calzas del suplicante corpóreo (470)
 # legs=,id=174127,gem_id=168642,bonus_id=4823/1808/6516/6513/1502/4786,context=5
 #
-# Zapatillas sucias del suplicante (475)
-# feet=,id=169049,bonus_id=6536/6578/6579/6566/6515/1532/4786,context=35
+# Calzas del suplicante corpóreo (470)
+# legs=,id=174127,bonus_id=4823/6578/6579/6559/6515/1502/4786,context=5
+#
+# Suelas del manipulador vil (465)
+# feet=,id=173495,bonus_id=6412/41/6513/6578/6579/6494/6613/1522/4786,context=54
 #
 # Sandalias barrearena (470)
 # feet=,id=159259,bonus_id=6532/6578/6579/6494/6613/6513/1642/4786,context=35
@@ -149,11 +149,29 @@ off_hand=,id=172190,bonus_id=4823/6516/6513/1502/4786,context=5
 # Zapatillas sucias del suplicante (465)
 # feet=,id=169049,bonus_id=6536/6516/6513/1522/4786,context=16
 #
-# Suelas del manipulador vil (465)
-# feet=,id=173495,bonus_id=6412/41/6513/6578/6579/6494/6613/1522/4786,context=54
+# Zapatillas sucias del suplicante (475)
+# feet=,id=169049,bonus_id=6536/6578/6579/6566/6515/1532/4786,context=35
 #
 # Sortija grabada por el Vacío (475)
 # finger1=,id=174531,bonus_id=4824/6516/6513/1517/4786,context=6
+#
+# Sello cerúleo turbio (475)
+# finger1=,id=158318,bonus_id=6536/6578/6579/6539/6513/1647/4786,context=35
+#
+# Anillo de conciencia colectiva (460)
+# finger1=,id=174530,enchant_id=6109,bonus_id=4823/42/6516/6513/1502/4786,context=5
+#
+# Sello del loa real (465)
+# finger1=,id=159458,bonus_id=6536/41/6516/6513/1637/4786,context=16
+#
+# Anillo de conciencia colectiva (475)
+# finger1=,id=174530,enchant_id=6109,bonus_id=4824/42/6516/6515/1517/4786,context=6
+#
+# Anillo de potencial cósmico (470)
+# finger1=,id=174533,bonus_id=4823/6578/6579/6480/6455/6515/1502/4786,context=5
+#
+# Sortija de bits reiniciadora (465)
+# finger1=,id=168977,bonus_id=6536/6516/6513/1522/4786,context=16
 #
 # Aro espinicor (460)
 # finger1=,id=174532,bonus_id=4823/6516/6515/1502/4786,context=5
@@ -161,47 +179,38 @@ off_hand=,id=172190,bonus_id=4823/6516/6513/1502/4786,context=5
 # Anillo de campeón de bombalón (460)
 # finger1=,id=159462,bonus_id=6532/6516/6515/1632/4786,context=16
 #
-# Sortija de bits reiniciadora (465)
-# finger1=,id=168977,bonus_id=6536/6516/6513/1522/4786,context=16
-#
-# Anillo de conciencia colectiva (475)
-# finger1=,id=174530,enchant_id=6109,bonus_id=4824/42/6516/6515/1517/4786,context=6
-#
 # Bucle lógico de mantenimiento (465)
 # finger1=,id=169076,bonus_id=6534/6516/6515/1522/4786,context=16
 #
-# Sello del loa real (465)
-# finger1=,id=159458,bonus_id=6536/41/6516/6513/1637/4786,context=16
-#
-# Anillo de conciencia colectiva (460)
-# finger1=,id=174530,enchant_id=6109,bonus_id=4823/42/6516/6513/1502/4786,context=5
-#
-# Sello cerúleo turbio (475)
-# finger1=,id=158318,bonus_id=6536/6578/6579/6539/6513/1647/4786,context=35
-#
-# Triturador de psiquis (475)
-# trinket1=,id=174060,bonus_id=4824/6515/1517/4786,context=6
-#
-# Escama de dragón negro resonante (460)
-# trinket1=,id=174044,gem_id=168642,bonus_id=4823/1808/41/6515/1502/4786,context=5
+# Manifiesto de la locura (470)
+# trinket1=,id=174103,bonus_id=4823/6513/1502/4786,context=5
 #
 # Garra de obsidiana prohibida (475)
 # trinket1=,id=173944,bonus_id=4824/6513/1517/4786,context=6
 #
+# Maretista del gigante de mar (410)
+# trinket1=,id=165664,bonus_id=4803/6513/1602/4785,context=25
+#
+# Emblema de Zandalar (415)
+# trinket1=,id=158154,bonus_id=4803/4802/42/6515/1607/4785,context=26
+#
 # Dispositivo de computación de bolsillo (415)
 # trinket1=,id=167555,gem_id=167672/168748/168435,gem_bonus_id=0/1472:4786,bonus_id=1487,context=11
 #
-# Shgla'yos, Malicia Astral (455)
-# main_hand=,id=174108,enchant_id=5963,bonus_id=4822/6553/6578/6579/1487/4786/6513,context=3
+# Escama de dragón negro resonante (460)
+# trinket1=,id=174044,gem_id=168642,bonus_id=4823/1808/41/6515/1502/4786,context=5
 #
 # Brisamarina (475)
 # main_hand=,id=158371,enchant_id=5963,bonus_id=6536/6578/6579/6537/6515/1647/4786,context=35
 #
-# Kilij de jade crepitante (465)
-# main_hand=,id=160216,bonus_id=6536/6516/6513/1637/4786,context=16
+# Athame de ritual ensangrentado (460)
+# main_hand=,id=172201,enchant_id=6112,bonus_id=4823/6578/6513/1502/4786/6516,context=5
 #
 # Cortador de Zem'lan (445)
 # main_hand=,id=158115,bonus_id=4803/6578/6579/6560/6515/1637/4786,context=28
 #
-# Athame de ritual ensangrentado (460)
-# main_hand=,id=172201,enchant_id=6112,bonus_id=4823/6578/6513/1502/4786/6516,context=5
+# Kilij de jade crepitante (465)
+# main_hand=,id=160216,bonus_id=6536/6516/6513/1637/4786,context=16
+#
+# Shgla'yos, Malicia Astral (455)
+# main_hand=,id=174108,enchant_id=5963,bonus_id=4822/6553/6578/6579/1487/4786/6513,context=3
